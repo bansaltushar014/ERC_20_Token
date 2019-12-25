@@ -1,7 +1,7 @@
 pragma solidity >=0.4.21;
 
 import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
-
+// contract inherited ownable
 contract METoken is Ownable {
     string public constant name = 'Mastering Ethereum Token';
     string public constant symbol = 'MET';
